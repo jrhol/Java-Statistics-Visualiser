@@ -1,0 +1,89 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+	
+	"osx" : {
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AirCoachRoughnessMain",
+            "request": "launch",
+            "mainClass": "aircoachroughness.AirCoachRoughnessMain",
+            "projectName": "AirCoachRoughness_4f50c84c",
+            "vmArgs": "--module-path /Users/james/Documents/Java/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
+            
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit_test_binmethod",
+            "request": "launch",
+            "mainClass": "aircoachroughness.Unit_test_binmethod",
+            "projectName": "AirCoachRoughness_4f50c84c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit_test_mathutils",
+            "request": "launch",
+            "mainClass": "aircoachroughness.Unit_test_mathutils",
+            "projectName": "AirCoachRoughness_4f50c84c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit_test_statutils",
+            "request": "launch",
+            "mainClass": "aircoachroughness.Unit_test_statutils",
+            "projectName": "AirCoachRoughness_4f50c84c"
+        }
+    ]
+}
+}
+
+	"windows" : {
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AirCoachRoughnessMain",
+            "request": "launch",
+            "mainClass": "aircoachroughness.AirCoachRoughnessMain",
+            "projectName": "AirCoachRoughness_4f50c84c",
+            "vmArgs": "--module-path /Users/james/Documents/Java/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
+            
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit_test_binmethod",
+            "request": "launch",
+            "mainClass": "aircoachroughness.Unit_test_binmethod",
+            "projectName": "AirCoachRoughness_4f50c84c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit_test_mathutils",
+            "request": "launch",
+            "mainClass": "aircoachroughness.Unit_test_mathutils",
+            "projectName": "AirCoachRoughness_4f50c84c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit_test_statutils",
+            "request": "launch",
+            "mainClass": "aircoachroughness.Unit_test_statutils",
+            "projectName": "AirCoachRoughness_4f50c84c"
+        }
+    ]
+}
+}
